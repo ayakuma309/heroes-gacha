@@ -1,65 +1,61 @@
-import React, {  useState } from 'react'
+import React, { useEffect, useState } from "react";
+import styles from "./Home.module.css";
+import HerosData from "../../json/hero.json";
 
-interface HeroTypeProps {
-  id: string;
+interface HeroDataProps {
+  id: number;
   name: string;
-  image: {
-    url: string;
-  };
-  biography: {
-    'full-name': string;
-  };
+  image: string;
+  fullname: string;
 }
 const Home = () => {
+  const [loading, setLoading] = useState<boolean>(true);
+  const heroesData = [...HerosData];
+  const [randomHeroes, setRandomHeroes] = useState<HeroDataProps[] | null>(null);
 
-  const [search, setSearch] = useState<string>('')
-  const [heroes, setHeroes] = useState<HeroTypeProps[]>([])
-  
+  useEffect(() => {
+    if (heroesData.length > 0) {
+      const shuffledHeroesData = heroesData;
+      for (let i = shuffledHeroesData.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledHeroesData[i], shuffledHeroesData[j]] = [
+          shuffledHeroesData[j],
+          shuffledHeroesData[i],
+        ];
+      }
+      setRandomHeroes(shuffledHeroesData.slice(0, 6));
+      setLoading(false);
+    }
+  }, []);
 
 
-  const getData = async (name: string) => {
-    const response = await fetch(
-      `https://www.superheroapi.com/api.php/10224590504484555/search/${name}`
-    ).then((response) => response.json());
-    return response;
-  };
-
-  const submitHandler = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    getData(search).then((data) => {
-      setHeroes(data.results)
-    })
+  if (loading) {
+    return <div>Loading...</div>;
   }
+
   return (
     <>
-      <form className="d-flex ms-auto" onSubmit={submitHandler}>
-        <input
-          type="text"
-          placeholder="Search your Hero"
-          className="mr-2"
-          aria-label="Search"
-          name="search"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-        <button className="searchButton" type="submit">Search</button>
-      </form>
       <div>
-        {heroes && heroes.map((hero) =>{
-          return(
-            <div className="card">
-              <img src={hero.image.url} alt="hero" />
-              <div className="card-body">
-                <p>{hero.id}</p>
-                <h5 className="card-title">{hero.name}</h5>
-                <p className="card-text">{hero.biography['full-name']}</p>
+        <div className={styles.container}>
+          {randomHeroes && randomHeroes.map((hero) => {
+            return (
+              <div className={styles.card} key={hero.id}>
+                <div className={styles.card_img}>
+                  <img src={hero.image} alt="hero" />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">
+                    {hero.name}<br/>
+                    <small className="card-text">{hero.fullname}</small>
+                  </h5>
+                </div>
               </div>
-            </div>
-          )
-        })}
+            );
+          })}
+        </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

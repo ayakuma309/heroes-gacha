@@ -1,0 +1,284 @@
+[
+  {
+    "id": 346,
+    "name": "Iron Man",
+    "fullname": "Tony Stark",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/85.jpg"
+  },
+  {
+    "id": 332,
+    "name": "Hulk",
+    "fullname": "Bruce Banner",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/85.jpg"
+  },
+  {
+    "id": 703,
+    "name": "War Machine",
+    "fullname": "James Rupert Rhodes",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/536.jpg"
+  },
+  {
+    "id": 659,
+    "name": "Thor",
+    "fullname": "Thor Odinson",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/140.jpg"
+  },
+  {
+    "id": 414,
+    "name": "Loki",
+    "fullname": "Loki Laufeyson",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/928.jpg"
+  },
+  {
+    "id": 149,
+    "name": "Captain America",
+    "fullname": "Steve Rogers",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/274.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Black Widow",
+    "fullname": "Natasha Romanoff",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/248.jpg"
+  },
+  {
+    "id": 313,
+    "name": "Hawkeye",
+    "fullname": "Clint Barton",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/73.jpg"
+  },
+  {
+    "id": 251,
+    "name": "Falcon",
+    "fullname": "Sam Wilson",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/56.jpg"
+  },
+  {
+    "id": 714,
+    "name": "Winter Soldier",
+    "fullname": "Bucky Barnes",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10027.jpg"
+  },
+  {
+    "id": 630,
+    "name": "Star-Lord",
+    "fullname": "Peter Jason Quill",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10015.jpg"
+  },
+  {
+    "id": 566,
+    "name": "Rocket Raccoon",
+    "fullname": "Rocket Raccoon",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10010.jpg"
+  },
+  {
+    "id": 303,
+    "name": "Groot",
+    "fullname": "Groot",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10017.jpg"
+  },
+  {
+    "id": 234,
+    "name": "Drax the Destroyer",
+    "fullname": "Arthur Sampson Douglas",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10016.jpg"
+  },
+  {
+    "id": 275,
+    "name": "Gamora",
+    "fullname": "Gamora Zen Whoberi Ben Titan",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/65.jpg"
+  },
+  {
+    "id": 487,
+    "name": "Nebula",
+    "fullname": "Nebula",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10632.jpg"
+  },
+  {
+    "id": 431,
+    "name": "Mantis",
+    "fullname": "Mantis",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/384.jpg"
+  },
+  {
+    "id": 579,
+    "name": "Scarlet Witch",
+    "fullname": "Wanda Maximoff",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/444.jpg"
+  },
+  {
+    "id": 536,
+    "name": "Quicksilver",
+    "fullname": "Pietro Django Maximoff",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/115.jpg"
+  },
+  {
+    "id": 697,
+    "name": "Vision",
+    "fullname": "Vision",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/532.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Ant-Man",
+    "fullname": "Hank Pym",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/857.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Ant-Man II",
+    "fullname": "Scott Lang",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/166.jpg"
+  },
+  {
+    "id": 620,
+    "name": "spider man",
+    "fullname": "Peter Parker",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/133.jpg"
+  },
+  {
+    "id": 226,
+    "name": "Doctor Strange",
+    "fullname": "Stephen Strange",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/55.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Black Panther",
+    "fullname": "T'Challa",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/247.jpg"
+  },
+  {
+    "id": 708,
+    "name": "Wasp",
+    "fullname": "Janet Van Dyne/ Hope Van Dyne",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/155.jpg"
+  },
+  {
+    "id": 157,
+    "name": "Captain Marvel",
+    "fullname": "Carol Danvers",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/103.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Black Widow II",
+    "fullname": "Yelena Belova",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/618.jpg"
+  },
+  {
+    "id": 314,
+    "name": "Hawkeye II",
+    "fullname": "Katherine Elizabeth Bishop",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10043.jpg"
+  },
+  {
+    "id": 587,
+    "name": "Shang-Chi",
+    "fullname": "Shang-Chi",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/454.jpg"
+  },
+  {
+    "id": 589,
+    "name": "She-Hulk",
+    "fullname": "Jennifer Walters",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/125.jpg"
+  },
+  {
+    "id": 489,
+    "name": "Nick Fury",
+    "fullname": "Nicholas Joseph Fury",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/326.jpg"
+  },
+  {
+    "id": 655,
+    "name": "Thanos",
+    "fullname": "Thanos",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/1305.jpg"
+  },
+  {
+    "id": 684,
+    "name": "Valkyrie",
+    "fullname": "Brunnhilde",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/147.jpg"
+  },
+  {
+    "id": 498,
+    "name": "Odin",
+    "fullname": "Odin Borson",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10388.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Batman",
+    "fullname": "Bruce Wayne",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
+  },
+  {
+    "id": 644,
+    "name": "Superman",
+    "fullname": "Clark Kent",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/791.jpg"
+  },
+  {
+    "id": 720,
+    "name": "Wonder Woman",
+    "fullname": "Diana Prince",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/807.jpg"
+  },
+  {
+    "id": 687,
+    "name": "Venom",
+    "fullname": "Eddie Brock",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/22.jpg"
+  },
+  {
+    "id": 213,
+    "name": "Deadpool",
+    "fullname": "Wade Wilson",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/835.jpg"
+  },
+  {
+    "id": 717,
+    "name": "Wolverine",
+    "fullname": "Logan",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/161.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Aquaman",
+    "fullname": "Orin",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/634.jpg"
+  },
+  {
+    "id": 265,
+    "name": "Flash II",
+    "fullname": "Barry Allen",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/892.jpg"
+  },
+  {
+    "id": 643,
+    "name": "Supergirl",
+    "fullname": "Kara Zor-El",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/790.jpg"
+  },
+  {
+    "id": 194,
+    "name": "Cyborg",
+    "fullname": "Victor Stone",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/1204.jpg"
+  },
+  {
+    "id": 370,
+    "name": "Joker",
+    "fullname": "Jack Napier",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/719.jpg"
+  },
+  {
+    "id": 309,
+    "name": "Harley Quinn",
+    "fullname": "Harley Quinn",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/701.jpg"
+  }
+]
