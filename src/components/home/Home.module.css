@@ -1,11 +1,16 @@
 .container{
   width: 90%;
-  margin: 200px auto;
+  margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.share_icon{
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+}
 
 .card img{
   width: 150px;

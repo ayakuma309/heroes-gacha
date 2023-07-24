@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Home.module.css";
 import HerosData from "../../json/hero.json";
+import { TwitterIcon, TwitterShareButton } from "react-share";
 
 interface HeroDataProps {
   id: number;
@@ -33,10 +34,22 @@ const Home = () => {
     return <div>Loading...</div>;
   }
 
+  // ヒーローの名前を取得
+  const HeroNames = randomHeroes && randomHeroes.map((hero) => hero.name).join("\n");
+  const heroList = "あなたが出会ったヒーローたち\n" + HeroNames;
   return (
     <>
       <div>
         <h1>ヒーローが会いにきました</h1>
+        <div className={styles.share_icon}>
+          <TwitterShareButton
+              title={`${heroList}`}
+              hashtags={["ヒーローに会いたいよ", "あなたが出会ったヒーロー"]}
+              url={`\nhttps://movie-heroes.vercel.app/`}
+          >
+              <TwitterIcon size={40} round />
+          </TwitterShareButton>
+        </div>
         <div className={styles.container}>
           {randomHeroes && randomHeroes.map((hero) => {
             return (
