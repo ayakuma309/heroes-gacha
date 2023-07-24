@@ -36,6 +36,7 @@ const Home = () => {
   return (
     <>
       <div>
+        <h1>ヒーローが会いにきました</h1>
         <div className={styles.container}>
           {randomHeroes && randomHeroes.map((hero) => {
             return (
