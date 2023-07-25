@@ -45,7 +45,7 @@ const Home = () => {
           <TwitterShareButton
               title={`${heroList}`}
               hashtags={["ヒーローに会いたいよ", "あなたが出会ったヒーロー"]}
-              url={`\nhttps://movie-heroes.vercel.app/`}
+              url={`\nhttps://timely-licorice-24485d.netlify.app/`}
           >
               <TwitterIcon size={40} round />
           </TwitterShareButton>
