@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Home.module.css";
 import HerosData from "../../json/hero.json";
-import { TwitterIcon, TwitterShareButton } from "react-share";
+import { TwitterShareButton } from "react-share";
 
 interface HeroDataProps {
   id: number;
@@ -47,7 +47,11 @@ const Home = () => {
               hashtags={["ヒーローに会いたいよ", "あなたが出会ったヒーロー"]}
               url={`\nhttps://timely-licorice-24485d.netlify.app/`}
           >
-              <TwitterIcon size={40} round />
+              <div
+                className={styles.twitter_share_button}
+              >
+                x
+              </div>
           </TwitterShareButton>
         </div>
         <div className={styles.container}>
